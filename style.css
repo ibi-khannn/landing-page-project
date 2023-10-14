@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.ultimate-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 8px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    color: white;
+}
+
+#doggy {
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#big-font {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#small-font {
+    font-size: 32px;
+}
+
+.second-section-centered { /* Made a super container for second-section to be allocated a width and then it can be centered in accordance with the div above */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.second-section {
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    width: 65%;
+    gap: 100px;
+}
+
+.left-side, .right-side {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 11px 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#btn-border {
+    border: 2px solid white;
+    padding: 8px 30px;
+}
+
+.information-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 72px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    gap: 54px;
+    text-align: center;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+  }
+
+  #information-heading {
+    margin-bottom: 46px;
+  }
+
+  .quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+  }
+
+  .quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 45%;
+    background-color: lightgray;
+    margin: 84px 0px;
+  }
+
+  #quote {
+    color: rgba(2, 1, 1, 0.493);
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  #quote-by {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .super-call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+  }
+
+  .call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 36px;
+    width: 55%;
+    gap: 300px;
+  }
+
+#p1 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#p2 {
+    margin-top: 0;
+}
+
+.footer {
+    height: 72px;
+    background: #000000;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+  }
+  
